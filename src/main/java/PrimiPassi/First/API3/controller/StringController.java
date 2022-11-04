@@ -12,7 +12,7 @@ public class StringController {
         if (strTwo == null) {
             return strOne;
         } else {
-            return strOne.concat(strTwo);
+            return strOne.concat(" " + strTwo);
         }
     }
 }
